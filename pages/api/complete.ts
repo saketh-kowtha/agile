@@ -12,7 +12,7 @@ Get Agile epics, stories, tasks with rough estimates and AC's in html format use
 `;
 const appendStr = (str: string) => base + str;
 
-export default function handler(
+export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
